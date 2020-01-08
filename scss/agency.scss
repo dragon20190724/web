@@ -10,10 +10,11 @@
 @import "components/navbar.scss";
 
 // Layout
-@import "layout/masthead.scss";
-@import "layout/services.scss";
-@import "layout/portfolio.scss";
-@import "layout/timeline.scss";
-@import "layout/team.scss";
-@import "layout/contact.scss";
-@import "layout/footer.scss";
+@import "layout/masthead.scss"; //头部
+@import "layout/services.scss"; //产品系列
+@import "layout/portfolio.scss";    //热销产品
+@import "layout/timeline.scss"; //  关于我们
+@import "layout/team.scss"; //联系我们
+// @import "layout/contact.scss";  //联系我们
+@import "layout/cooperation.scss"; //品牌合作
+@import "layout/footer.scss";   //底部
