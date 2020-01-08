@@ -1,75 +1,82 @@
 // Styling for the footer
-// .footer {
-//   color:white;
-//   background-color: $black;  
-//   padding: 25px 0;
-//   text-align: center;
-//   .top{
-//     font-size: 90%;
-//     font-weight: 400;
-//     padding: 0.75em 0;
-//     letter-spacing: 1px;
-//     color: white;
-//     @include heading-font;
-//     &.active,
-//     &:hover {
-//         color: $primary;
-//     }
-//   }
-//   span.copyright {
-//     font-size: 90%;
-//     line-height: 40px;
-//     text-transform: none;
-//     @include heading-font;
-//   }
-// }
-// Styling for the navbar
 #footer {
-    background-color: $gray-900;
-    .navbar-toggler {
-      font-size: 12px;
-      right: 0;
-      padding: 13px;
-      text-transform: uppercase;
-      color: white;
-      border: 0;
-      background-color: $primary;
-      @include heading-font;
-    }
-    .navbar-brand {
-      color: $green;
-      @include script-font;
-      &.active,
-      &:active,
-      &:focus,
-      &:hover {
-        color: $green;
-      }
-    }
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          font-size: 90%;
-          font-weight: 400;
-          padding: 0.75em 0;
-          letter-spacing: 1px;
-          color: white;
-          @include heading-font;
-          &.active,
-          &:hover {
-            color: $primary;
-          }
+  color:$white;
+  background-color: $black;  
+  padding: 25px 0;
+  text-align: center;
+    .top{
+        padding-bottom:15px;
+        border-bottom: .5px solid rgba(255,255,255,.25);
+        a{
+            font-size: 90%;
+            font-weight: 400;
+            padding: 0.75em 0;
+            letter-spacing: 1px;
+            color: $white;
+            @include heading-font;
+            &.active,
+            &:hover {
+                color:$primary;
+            }
         }
-      }
     }
-
     span.copyright {
         font-size: 90%;
         line-height: 40px;
         text-transform: none;
         @include heading-font;
     }
-  }
+
+
+// Styling for the navbar
+// #footer {
+//     background-color: $gray-900;
+//     .navbar-toggler {
+//       font-size: 12px;
+//       right: 0;
+//       padding: 13px;
+//       text-transform: uppercase;
+//       color: white;
+//       border: 0;
+//       background-color: $primary;
+//       @include heading-font;
+//     }
+//     .navbar-brand {
+//       color: $green;
+//       @include script-font;
+//       &.active,
+//       &:active,
+//       &:focus,
+//       &:hover {
+//         color: $green;
+//       }
+//     }
+//     .navbar-nav {
+//       .nav-item {
+//         .nav-link {
+//           font-size: 90%;
+//           font-weight: 400;
+//           padding: 0.75em 0;
+//           letter-spacing: 1px;
+//           color: white;
+//           @include heading-font;
+//           &.active,
+//           &:hover {
+//             color: $primary;
+//           }
+//         }
+//       }
+//     }
+
+//     span.copyright {
+//         font-size: 90%;
+//         line-height: 40px;
+//         text-transform: none;
+//         @include heading-font;
+//     }
+//   }
+
+
   @media(min-width:992px) {
     .mainNav {
       padding-top: 25px;
@@ -103,5 +110,6 @@
       }
     }
   }
+}
   
 
